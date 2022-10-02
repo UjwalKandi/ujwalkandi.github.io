@@ -1,0 +1,112 @@
+{
+   "@lang": "",
+   "para": [
+      {
+         "anchor": {
+            "@id": "top"
+         },
+         "note": [
+            {
+               "remark": "HTML: <meta http-equiv=\"x-ua-compatible\" content=\"IE=edge\">"
+            },
+            {
+               "remark": "HTML: <noscript>"
+            },
+            {
+               "remark": "HTML: <\/noscript>"
+            },
+            {
+               "remark": "HTML: <meta name=\"\" content=\"Ujwal Kandi\">"
+            },
+            {
+               "remark": "HTML: <meta name=\"\" content=\"Personal Website/Blog of Ujwal Kandi\">"
+            },
+            {
+               "remark": "HTML: <meta name=\"\" content=\"website\">"
+            },
+            {
+               "remark": "HTML: <meta name=\"\" content=\"https://ujwalkandi.in/\">"
+            },
+            {
+               "remark": "HTML: <meta name=\"\" content=\"https://ujwalkandi.in/assets/img/uk_headr.png\">"
+            }
+         ],
+         "#text": [
+            "window.panelbear = window.panelbear || function() { (window.panelbear.q = window.panelbear.q || []).push(arguments); };\n            panelbear('config', { site: '5yhHCtOWsUs' });",
+            "location.href.includes(\"https://ujwalkandi.in/\") || location.replace(\"https://ujwalkandi.in/\")",
+            "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"Ujwal Kandi\",\"url\":\"https://ujwalkandi.in/\",\"description\":\"Personal Website/Blog of Ujwal Kandi\",\"thumbnailUrl\":\"https://ujwalkandi.in/assets/img/favicon.ico\",\"sameAs\":[\"https://twitter.com/UjwalKandiii\",\"https://www.linkedin.com/in/ujwalkandi\",\"https://github.com/UjwalKandi\",\"https://t.me/ujwal_kandi\",\"https://ujwalkandi.in/links\",\"https://ujwalkandi.in/index.xml\"]}\n                    localStorage.getItem(\"pref-theme\") === \"dark\" ? document.body.classList.add('dark') : localStorage.getItem(\"pref-theme\") === \"light\" ? document.body.classList.remove('dark') : window.matchMedia('(prefers-color-scheme: dark)').matches && document.body.classList.add('dark')"
+         ],
+         "ulink": {
+            "@url": "https://ujwalkandi.in/",
+            "#text": "‹ Home ›"
+         }
+      },
+      "Ujwal Kandi",
+      "A Data Programmer and Developer with interests in Data Science, Finance, Cloud and Programming; loves Open-Source & Data Visualization. Taking blurry pictures in my free time.",
+      [],
+      {
+         "#text": [
+            "Data Programmer @",
+            ".Fellow @ University Innovation Fellows."
+         ],
+         "ulink": {
+            "@url": "https://www.epsilon.com/",
+            "#text": "Epsilon"
+         }
+      },
+      {
+         "#text": [
+            "© 2022 Ujwal Kandi · Powered by",
+            "· Theme",
+            "let b = document.querySelector(\"#menu-trigger\")\n      , m = document.querySelector(\".menu\");\n    b.addEventListener(\"click\", function() {\n        m.classList.toggle(\"hidden\")\n    }),\n    document.body.addEventListener('click', function(a) {\n        b.contains(a.target) || m.classList.add(\"hidden\")\n    })    let menu = document.getElementById('menu');\n    menu && (menu.scrollLeft = localStorage.getItem(\"menu-scroll-position\"),\n    menu.onscroll = function() {\n        localStorage.setItem(\"menu-scroll-position\", menu.scrollLeft)\n    }\n    ),\n    document.querySelectorAll('a[href^=\"#\"]').forEach(a=>{\n        a.addEventListener(\"click\", function(b) {\n            b.preventDefault();\n            var a = this.getAttribute(\"href\").substr(1);\n            window.matchMedia('(prefers-reduced-motion: reduce)').matches ? document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView() : document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView({\n                behavior: \"smooth\"\n            }),\n            a === \"top\" ? history.replaceState(null, null, \" \") : history.pushState(null, null, `#${a}`)\n        })\n    }\n    )    var mybutton = document.getElementById(\"top-link\");\n    window.onscroll = function() {\n        document.body.scrollTop > 800 || document.documentElement.scrollTop > 800 ? (mybutton.style.visibility = \"visible\",\n        mybutton.style.opacity = \"1\") : (mybutton.style.visibility = \"hidden\",\n        mybutton.style.opacity = \"0\")\n    }    document.getElementById(\"theme-toggle\").addEventListener(\"click\", ()=>{\n        document.body.className.includes(\"dark\") ? (document.body.classList.remove('dark'),\n        localStorage.setItem(\"pref-theme\", 'light')) : (document.body.classList.add('dark'),\n        localStorage.setItem(\"pref-theme\", 'dark'))\n    }\n    )"
+         ],
+         "ulink": [
+            {
+               "@url": "https://gohugo.io/",
+               "#text": "Hugo"
+            },
+            {
+               "@url": "https://git.io/hugopapermod",
+               "#text": "PaperMod"
+            }
+         ],
+         "anchor": {
+            "@id": "top-link"
+         }
+      }
+   ],
+   "orderedlist": [
+      {
+         "para": {
+            "ulink": {
+               "@url": "https://ujwalkandi.in/about",
+               "#text": "About"
+            }
+         }
+      },
+      {
+         "para": {
+            "ulink": {
+               "@url": "https://ujwalkandi.in/projects",
+               "#text": "Projects"
+            }
+         }
+      },
+      {
+         "para": {
+            "ulink": {
+               "@url": "https://ujwalkandi.in/links",
+               "#text": "Links"
+            }
+         }
+      },
+      {
+         "para": {
+            "olink": {
+               "@targetdocent": "assets/Ujwal_Kandi_Resume.pdf",
+               "#text": "Resume"
+            }
+         }
+      }
+   ]
+}
