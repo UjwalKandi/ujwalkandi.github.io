@@ -1,7 +1,7 @@
 baseURL: "https://ujwalkandi.in/"
 title: Ujwal Kandi
 paginate: 5
-theme: hugo-PaperMod
+remote_theme: hugo-PaperMod
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
