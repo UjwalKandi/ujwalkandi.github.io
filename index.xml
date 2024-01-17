@@ -33,7 +33,7 @@
   <para>A Data Programmer and Developer with interests in Data Science, Finance, Cloud and Programming; loves Open-Source &amp; Data Visualization. Taking blurry pictures in my free time.</para>
   <para/>
   <para>Data Programmer @ <ulink url="https://www.epsilon.com/">Epsilon</ulink>.Fellow @ University Innovation Fellows.</para>
-  <para>© 2022 Ujwal Kandi · Powered by <ulink url="https://gohugo.io/">Hugo</ulink> · Theme <ulink url="https://git.io/hugopapermod">PaperMod</ulink> <anchor id="top-link"/>    let b = document.querySelector("#menu-trigger")
+  <para>© 2024 Ujwal Kandi · Powered by <ulink url="https://gohugo.io/">Hugo</ulink> · Theme <ulink url="https://git.io/hugopapermod">PaperMod</ulink> <anchor id="top-link"/>    let b = document.querySelector("#menu-trigger")
       , m = document.querySelector(".menu");
     b.addEventListener("click", function() {
         m.classList.toggle("hidden")
