@@ -1,0 +1,34 @@
+{{ define "main" }}
+<style>
+    .links-page { text-align: center; }
+    .links-page .button {
+        background: var(--tertiary);
+        border-radius: 8px;
+        padding: 8px 80px;
+        display: block;
+        width: 100%;
+    }
+    .links-page ul.links {
+        list-style: none;
+        flex-direction: column;
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+    }
+    .links-page ul.links li {
+        padding: 10px 0;
+    }
+</style>
+<div class="links-page">
+    <h1>Link Tree</h1>
+    <ul class="links">
+        {{ range .Site.Data.links }}
+        <li>
+            <a class="button" href="{{ .url }}" {{ if ne .url "https://ujwalkandi.in" }}target="_blank" {{ end }}rel="noopener noreferrer" title="{{ .title }}">
+                <h4>{{ .title }}</h4>
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+</div>
+{{ end }}

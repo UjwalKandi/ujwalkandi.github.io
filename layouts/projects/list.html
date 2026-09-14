@@ -1,0 +1,23 @@
+{{ define "main" }}
+<header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{ if .Description }}<p>{{ .Description }}</p>{{ end }}
+</header>
+<article class="post-single">
+<div class="post-content">
+    {{ range .Pages.ByWeight }}
+    <h2 id="{{ .File.ContentBaseName }}">{{ .Title }}<a hidden class="anchor" aria-hidden="true" href="#{{ .File.ContentBaseName }}">#</a></h2>
+    {{ if .Params.linkLabel }}
+    <p><strong>{{ .Params.linkLabel }}</strong>: <a href="{{ .Params.link }}" target="_blank">{{ .Params.link }}</a></p>
+    {{ else if .Params.link }}
+    <p><a href="{{ .Params.link }}" target="_blank">{{ .Params.link }}</a></p>
+    {{ end }}
+    {{ .Content }}
+    {{ if .Params.badge }}
+    <p><a href="{{ .Params.link }}"><img loading="lazy" decoding="async" src="{{ .Params.badge }}" alt=""></a></p>
+    {{ end }}
+    <hr>
+    {{ end }}
+</div>
+</article>
+{{ end }}

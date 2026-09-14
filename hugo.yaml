@@ -1,0 +1,120 @@
+baseURL: "https://ujwalkandi.in/"
+locale: en-us
+title: Ujwal Kandi
+paginate: 5
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+googleAnalytics: G-M6PE73SR22
+
+minify:
+    disableXML: true
+
+profileMode:
+    enabled: true
+    title: Ujwal Kandi
+    subtitle: >
+        Data Operations & Observability Engineer specializing in monitoring, incident response, and RCA for production data pipelines — currently keeping Apple TV's global content pipeline observable.
+        - Previously @ [Epsilon](https://www.epsilon.com/), Dover Fueling Solutions & Sports Excitement — supporting Fortune 500 clients like Disney, Bank of America & Marriott.
+        - M.S. in Information Technology & Management, UT Austin.
+    imageUrl: ""
+    buttons:
+        - name: About
+          url: about
+        - name: Projects
+          url: projects
+        - name: Links
+          url: links
+        - name: Archive
+          url: archive
+        - name: Resume
+          url: assets/Ujwal_Kandi_Resume.pdf
+
+menu:
+    main:
+        - name: About
+          url: /about/
+          weight: 5
+        - name: Projects
+          url: /projects/
+          weight: 10
+        - name: Links
+          url: /links/
+          weight: 15
+        - name: Archive
+          url: /archive/
+          weight: 20
+        - name: Resume
+          url: /assets/Ujwal_Kandi_Resume.pdf
+          weight: 25
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    description: "Personal Website/Blog of Ujwal Kandi"
+    author: Ujwal Kandi
+
+    defaultTheme: auto
+    ShowShareButtons: true
+    ShowReadingTime: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowToc: true
+
+    homeInfoParams:
+        Title: "Ujwal Kandi"
+        Content: >
+            Data Operations & Observability Engineer specializing in monitoring, incident response, and RCA for production data pipelines — currently keeping Apple TV's global content pipeline observable.
+            - Previously @ [Epsilon](https://www.epsilon.com/), Dover Fueling Solutions & Sports Excitement — supporting Fortune 500 clients like Disney, Bank of America & Marriott.
+            - M.S. in Information Technology & Management, UT Austin.
+
+    socialIcons:
+        - name: github
+          url: "https://ujwalkandi.in/links"
+        - name: RsS
+          url: "index.xml"
+
+    assets:
+        favicon: "https://ujwalkandi.in/assets/img/favicon.ico"
+        favicon16x16: "https://ujwalkandi.in/assets/img/favicon-16x16.png"
+        favicon32x32: "https://ujwalkandi.in/assets/img/favicon-32x32.png"
+        apple_touch_icon: "https://ujwalkandi.in/assets/img/apple-touch-icon.png"
+        safari_pinned_tab: "https://ujwalkandi.in/assets/img/android-chrome-512x512.png"
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+
+privacy:
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true
