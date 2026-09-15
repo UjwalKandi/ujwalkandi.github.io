@@ -82,7 +82,8 @@ params:
             - M.S. in Information Technology & Management, UT Austin.
 
     socialIcons:
-        - name: github
+        - name: link
+          title: Links
           url: "https://ujwalkandi.in/links"
         - name: RsS
           url: "index.xml"
