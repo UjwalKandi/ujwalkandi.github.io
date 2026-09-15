@@ -34,7 +34,7 @@ profileMode:
         - name: Archive
           url: archive
         - name: Resume
-          url: assets/Ujwal_Kandi_Resume.pdf
+          url: assets/ujwal-kandi-resume.pdf
 
 menu:
     main:
@@ -51,7 +51,7 @@ menu:
           url: /archive/
           weight: 20
         - name: Resume
-          url: /assets/Ujwal_Kandi_Resume.pdf
+          url: /assets/ujwal-kandi-resume.pdf
           weight: 25
 
 outputs:
