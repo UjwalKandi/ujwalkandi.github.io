@@ -1,5 +1,8 @@
+{{- /* Embeds a Tableau Public viz. Use a plain "/" between workbook and view:
+       Tableau's own embed snippet writes it as &#47;, but Hugo escapes the "&"
+       into "&amp;#47;" which breaks the lookup. */ -}}
 {{ $id := .Get "id" }}
-{{ $name := printf "%s&#47;%s" (.Get "workbook") (.Get "view") }}
+{{ $name := printf "%s/%s" (.Get "workbook") (.Get "view") }}
 {{ $mobileHeight := .Get "mobileHeight" | default "1027px" }}
 <div class='tableauPlaceholder' id='viz{{ $id }}' style='position: relative'>
     <object class='tableauViz' style='display:none;'>

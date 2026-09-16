@@ -66,13 +66,15 @@ params:
     author: Ujwal Kandi
 
     defaultTheme: auto
-    ShowShareButtons: true
-    ShowReadingTime: true
+    # Kept off to match the old per-page sites' minimal look: no share icons,
+    # no breadcrumbs, no auto Table of Contents, no date/readtime/author meta.
+    ShowShareButtons: false
+    ShowReadingTime: false
     displayFullLangName: true
-    ShowPostNavLinks: true
-    ShowBreadCrumbs: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
-    ShowToc: true
+    ShowToc: false
 
     homeInfoParams:
         Title: "Ujwal Kandi"

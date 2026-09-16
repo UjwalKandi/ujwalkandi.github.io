@@ -3,7 +3,7 @@ title: "About Me"
 description: "Data Operations & Observability Engineer specializing in monitoring, incident response, and RCA for production pipelines. Currently at Apple; previously Epsilon, Dover Fueling Solutions. M.S. in IT & Management, UT Austin."
 date: 2024-01-01
 lastmod: 2026-08-11
-ShowBreadCrumbs: true
+layout: page
 ---
 
 > 👋🏼 I'm Ujwal Kandi, a Data Operations & Observability Engineer based in Austin, TX — I keep production data pipelines and monitoring infrastructure healthy, catching issues before they reach customers and turning incidents into runbooks so they don't happen twice.
