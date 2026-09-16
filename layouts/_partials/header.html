@@ -2,6 +2,10 @@
     <nav class="header-nav">
         <div class="logo">
             {{- $label_text := (site.Params.label.text | default site.Title) }}
+            {{- /* Local override: away from the homepage the logo reads "‹ Home ›"
+                   instead of the site title, as it did on the old per-page sites,
+                   so it's obvious it links back. It already points at "/". */ -}}
+            {{- if not .IsHome }}{{ $label_text = "‹ Home ›" }}{{ end }}
             {{- if site.Title }}
             <a href="{{ "" | absLangURL }}" accesskey="h" title="{{ $label_text }} (Alt + H)">
                 {{- if site.Params.label.icon }}
