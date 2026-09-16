@@ -53,6 +53,8 @@ menu:
         - name: Resume
           url: /assets/ujwal-kandi-resume.pdf
           weight: 25
+          params:
+              newTab: true
 
 outputs:
     home:
