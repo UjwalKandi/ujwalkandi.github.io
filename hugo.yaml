@@ -50,6 +50,8 @@ menu:
         - name: Archive
           url: /archive/
           weight: 20
+          params:
+              newTab: true
         - name: Resume
           url: /assets/ujwal-kandi-resume.pdf
           weight: 25
