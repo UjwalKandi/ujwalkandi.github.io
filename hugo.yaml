@@ -16,26 +16,6 @@ googleAnalytics: G-M6PE73SR22
 minify:
     disableXML: true
 
-profileMode:
-    enabled: true
-    title: Ujwal Kandi
-    subtitle: >
-        Data Operations & Observability Engineer specializing in monitoring, incident response, and RCA for production data pipelines — currently keeping Apple TV's global content pipeline observable.
-        - Previously @ [Epsilon](https://www.epsilon.com/), Dover Fueling Solutions & Sports Excitement — supporting Fortune 500 clients like Disney, Bank of America & Marriott.
-        - M.S. in Information Technology & Management, UT Austin.
-    imageUrl: ""
-    buttons:
-        - name: About
-          url: about
-        - name: Projects
-          url: projects
-        - name: Links
-          url: links
-        - name: Archive
-          url: archive
-        - name: Resume
-          url: assets/ujwal-kandi-resume.pdf
-
 menu:
     main:
         - name: About
@@ -82,10 +62,13 @@ params:
 
     homeInfoParams:
         Title: "Ujwal Kandi"
-        Content: >
-            Data Operations & Observability Engineer specializing in monitoring, incident response, and RCA for production data pipelines — currently keeping Apple TV's global content pipeline observable.
-            - Previously @ [Epsilon](https://www.epsilon.com/), Dover Fueling Solutions & Sports Excitement — supporting Fortune 500 clients like Disney, Bank of America & Marriott.
-            - M.S. in Information Technology & Management, UT Austin.
+        # Literal block (|), not folded (>): folding collapses the newlines and
+        # runs the lines together into one paragraph.
+        Content: |
+            Data Operations & Observability Engineer, currently keeping Apple TV's global content pipeline observable. Taking [blurry pictures](/archive/) in my free time.
+
+            Previously @ [Epsilon](https://www.epsilon.com/), Dover Fueling Solutions & Sports Excitement.<br>
+            M.S. Information Technology & Management @ UT Austin.
 
     socialIcons:
         - name: link
