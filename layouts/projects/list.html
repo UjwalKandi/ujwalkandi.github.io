@@ -22,7 +22,10 @@
     </div>
   </details>
 
-  <div class="post-content">
+  {{- /* `md-content` matters: this PaperMod version scopes its markdown
+         typography (paragraph spacing, heading sizes, list indents) to that
+         class, not to `post-content`. */ -}}
+  <div class="post-content md-content">
     {{- range .Pages.ByWeight }}
     <h2 id="{{ .File.ContentBaseName }}">{{ .Title }}<a hidden class="anchor" aria-hidden="true" href="#{{ .File.ContentBaseName }}">#</a></h2>
     {{- if .Params.linkLabel }}

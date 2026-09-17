@@ -8,7 +8,10 @@
     <h1 class="post-title">{{ .Title }}</h1>
   </header>
   {{- if .Content }}
-  <div class="post-content">
+  {{- /* `md-content` matters: this PaperMod version scopes its markdown
+         typography (paragraph spacing, blockquote rule, heading sizes, list
+         indents) to that class, not to `post-content`. */ -}}
+  <div class="post-content md-content">
     {{- partial "anchored_headings.html" .Content -}}
   </div>
   {{- end }}
