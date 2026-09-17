@@ -65,7 +65,7 @@ params:
         # Literal block (|), not folded (>): folding collapses the newlines and
         # runs the lines together into one paragraph.
         Content: |
-            Data Operations & Observability Engineer, currently keeping Apple TV's global content pipeline observable. Taking [blurry pictures](/archive/) in my free time.
+            Data Operations & Observability Engineer, currently keeping Apple TV's global content pipeline observable. Taking blurry pictures in my free time.
 
             Previously @ Epsilon, Dover Fueling Solutions & Sports Excitement.<br>
             M.S. Information Technology & Management @ UT Austin.
