@@ -59,6 +59,9 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowToc: false
+    # Hides the "Ujwal Kandi" byline under each homepage entry; `author`
+    # above still feeds the meta tags, RSS, and JSON-LD.
+    hideAuthor: true
 
     homeInfoParams:
         Title: "Ujwal Kandi"
