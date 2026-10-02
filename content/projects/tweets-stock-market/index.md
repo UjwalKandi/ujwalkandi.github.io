@@ -1,6 +1,6 @@
 ---
 title: "Financial Impact of Presidential Tweets on Stock Markets"
-weight: 9
+weight: 10
 link: "https://public.tableau.com/app/profile/ujwal.kandi"
 linkLabel: "Tableau"
 paper: "https://arxiv.org/abs/2101.03205"

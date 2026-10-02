@@ -1,6 +1,6 @@
 ---
 title: "Archive - Photography Portfolio"
-weight: 5
+weight: 6
 link: "https://ujwalkandi.in/archive/"
 linkLabel: ""
 ---

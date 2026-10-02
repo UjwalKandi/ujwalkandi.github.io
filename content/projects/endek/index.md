@@ -1,6 +1,6 @@
 ---
 title: "EnDe-K"
-weight: 7
+weight: 8
 link: "https://github.com/UjwalKandi/EnDek"
 linkLabel: "GitHub"
 badge: "https://github-readme-stats.vercel.app/api/pin?username=ujwalkandi&repo=endek&show_owner=true&bg_color=00000000&text_color=777&hide_border=true"

@@ -1,6 +1,6 @@
 ---
 title: "Archaeological Sites with Mayan Inscriptions"
-weight: 10
+weight: 11
 link: "https://public.tableau.com/app/profile/ujwal.kandi/viz/MayanSites/MayanSites"
 linkLabel: "Tableau"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Deaths during the LA Riots of 1992"
-weight: 12
+weight: 13
 link: "https://public.tableau.com/app/profile/ujwal.kandi/viz/LAriots1992/DeathsduringLAriotsin1992"
 linkLabel: "Tableau"
 ---

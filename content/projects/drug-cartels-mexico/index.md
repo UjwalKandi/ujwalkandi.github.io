@@ -1,6 +1,6 @@
 ---
 title: "Dashboard on Drug Cartels' Activity across Mexico"
-weight: 8
+weight: 9
 link: "https://public.tableau.com/app/profile/ujwal.kandi/viz/DrugCartels-Mexico/DrugCartels-Mehico"
 linkLabel: "Tableau"
 ---

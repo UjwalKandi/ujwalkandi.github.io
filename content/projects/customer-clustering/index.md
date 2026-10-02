@@ -1,6 +1,6 @@
 ---
 title: "Customer Characterization & Profiling using Agglomerative Clustering"
-weight: 3
+weight: 4
 link: "https://medium.com/@ujwalkandi/customer-characterization-and-profiling-using-agglomerative-hierarchical-clustering-7713ca77111a"
 linkLabel: "Medium"
 ---

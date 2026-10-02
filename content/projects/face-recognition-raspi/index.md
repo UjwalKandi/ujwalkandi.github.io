@@ -1,6 +1,6 @@
 ---
 title: "Real-Time Face Recognition with Raspberry Pi 3"
-weight: 11
+weight: 12
 link: "https://github.com/UjwalKandi/Object-Recognition-with-Raspberry-Pi"
 linkLabel: "GitHub"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "A.I.D.E. - AI Diagnostic Engine"
-weight: 2
+weight: 3
 link: "https://github.com/UjwalKandi/A.I.D.E"
 linkLabel: "GitHub"
 ---

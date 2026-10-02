@@ -1,6 +1,6 @@
 ---
 title: "Smart Air Quality Monitoring: IoT Sensors on M5StickC Plus"
-weight: 4
+weight: 5
 link: "https://medium.com/@ujwalkandi/smart-air-quality-monitoring-iot-sensors-on-m5stickc-plus-40d01827b39c"
 linkLabel: "Medium"
 ---

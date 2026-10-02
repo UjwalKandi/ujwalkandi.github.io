@@ -1,6 +1,6 @@
 ---
 title: "FlipFinder Pro: Real-Time AI for Car-Flip Profit Detection"
-weight: 1
+weight: 2
 link: "https://github.com/UjwalKandi/FlipFinder-Pro"
 linkLabel: "GitHub"
 ---
